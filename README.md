@@ -35,7 +35,7 @@
                           . <br />
                           . <br />
      </pre>                      
-   To see in more descriptive way, run -   [hblood_noblood_detection_cnn.ipynb](detection_cnn/blood_noblood_detection_cnn.ipynb)
+   To see in more descriptive way, run -   [blood_noblood_detection_cnn.ipynb](detection_cnn/blood_noblood_detection_cnn.ipynb)
 
 
 # 2. Blood Detection through Haar Cascade Classifier:
