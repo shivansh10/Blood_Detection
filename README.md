@@ -10,7 +10,7 @@
    The model is Sequential model. The trained network predicts whether the input image does have blood or not. The model is saved which can be used for opencv arena.
 
    The dataset library should be like:
-   
+   <pre>  
    dataset: <br />
           train_set: <br />
                     blood <br />
@@ -34,7 +34,7 @@
                           noblood1.png <br />
                           . <br />
                           . <br />
-                          
+     </pre>                      
    To see in more descriptive way, run -    detection_cnn/blood_noblood_detection_cnn.ipynb 
 
 
