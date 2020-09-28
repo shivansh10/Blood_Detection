@@ -35,15 +35,16 @@
                           . <br />
                           . <br />
                           
-   To see in more descriptive way, run -    detection_cnn/blood_noblood_detection_cnn.ipynb <br />
+   To see in more descriptive way, run -    detection_cnn/blood_noblood_detection_cnn.ipynb 
 
 
 # 2. Blood Detection through Haar Cascade Classifier:
 
    The pretrained model for face detection is used which is present in cv2 library. Then on the face detected image, the labels in been set according to the name of the file. Then through basic python using computer vision tools, The blood face is been detected through this way.  <br />
-   The dataset library should be like: <br />
+   The dataset library should be like: 
    
-   dataset:<br /> 
+  <pre>  
+  dataset:<br /> 
           train_set:<br />
                     b1<br />
                           blood1.png<br />
@@ -51,22 +52,22 @@
                           blood3.png<br />
                           .<br />
                           .<br />
-                    b2
-                          noblood1.png
-                          noblood2.png
-                          noblood3.png
-                          .
-                          .
-             test_set:
-                    blood
-                          blood1.png
-                          .
-                          .
-                    noblood
-                          noblood1.png
-                          .
-                          .
-                          
+                    b2<br />
+                          noblood1.png<br />
+                          noblood2.png<br />
+                          noblood3.png<br />
+                          .<br />
+                          .<br />
+             test_set:<br />
+                    blood<br />
+                          blood1.png<br />
+                          .<br />
+                          .<br />
+                    noblood<br />
+                          noblood1.png<br />
+                          .<br />
+                          .<br />
+   </pre>                       
   To see in more descriptive way, run -    detection_haarcascade/blood_noblood_detection_haarcascade.ipynb
                           
                
